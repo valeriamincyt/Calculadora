@@ -6,4 +6,9 @@ public class Calculadora {
 		return i + j;
 	}
 
+	public int restar(int i, int j) {
+		
+		return i - j;
+	}
+
 }
