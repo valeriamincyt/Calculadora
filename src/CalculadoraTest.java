@@ -15,5 +15,12 @@ class CalculadoraTest {
 		Calculadora calc = new Calculadora();
 		assertEquals(48, calc.restar(88,40));
 	}
+	
+	@Test
+	void multiplicarDosEnteros() {
+		Calculadora calc = new Calculadora();
+		assertEquals(56, calc.multiplicar(8,7));
+
+	}
 
 }
