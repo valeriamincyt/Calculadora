@@ -20,6 +20,13 @@ class CalculadoraTest {
 	void multiplicarDosEnteros() {
 		Calculadora calc = new Calculadora();
 		assertEquals(56, calc.multiplicar(8,7));
-
 	}
+	
+	@Test
+	void ejecutarChau() {
+		Calculadora calc = new Calculadora();
+		assertEquals("Chau", calc.chau());
+	}
+	
+	
 }
