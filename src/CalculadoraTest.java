@@ -23,4 +23,17 @@ class CalculadoraTest {
 
 	}
 
+	@Test
+	void elevarAlCuadrado() {
+		Calculadora calc = new Calculadora();
+		assertEquals(27, calc.cuadrado(3));
+
+	}
+
+	@Test
+	void ejecutarHola() {
+		Calculadora calc = new Calculadora();
+		assertEquals("Hola", calc.hola());
+
+	}
 }
