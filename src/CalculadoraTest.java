@@ -22,4 +22,18 @@ class CalculadoraTest {
 		assertEquals(56, calc.multiplicar(8,7));
 
 	}
+
+	@Test
+	void elevarAlCuadrado() {
+		Calculadora calc = new Calculadora();
+		assertEquals(27, calc.cuadrado(3));
+
+	}
+
+	@Test
+	void ejecutarHola() {
+		Calculadora calc = new Calculadora();
+		assertEquals("Hola", calc.hola());
+
+	}
 }
