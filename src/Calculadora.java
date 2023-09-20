@@ -16,4 +16,8 @@ public class Calculadora {
 		return i * j;
 	}
 
+	public int cuadrado(int i) {
+		return i * i;
+	}
+
 }
