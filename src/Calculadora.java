@@ -23,4 +23,8 @@ public class Calculadora {
 	public String hola() {
 		return "Hola";
 	}
+	
+	public String chau() {
+		return "Chau";
+	}
 }
