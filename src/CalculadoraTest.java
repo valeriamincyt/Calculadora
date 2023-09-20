@@ -2,14 +2,18 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import junit.framework.Assert;
-
 class CalculadoraTest {
 
 	@Test
-	void sumaDosEnteros() {
+	void sumarDosEnteros() {
 		Calculadora calc = new Calculadora();
 		assertEquals(15, calc.sumar(8,7));
+	}
+	
+	@Test
+	void multiplicarDosEnteros() {
+		Calculadora calc = new Calculadora();
+		assertEquals(56, calc.multiplicar(8,7));
 	}
 
 }
