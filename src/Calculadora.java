@@ -19,5 +19,4 @@ public class Calculadora {
 	public int cuadrado(int i) {
 		return i * i;
 	}
-
 }

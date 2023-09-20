@@ -22,5 +22,4 @@ class CalculadoraTest {
 		assertEquals(56, calc.multiplicar(8,7));
 
 	}
-
 }
