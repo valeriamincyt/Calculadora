@@ -20,4 +20,7 @@ public class Calculadora {
 		return i * i;
 	}
 
+	public String hola() {
+		return "Hola";
+	}
 }
